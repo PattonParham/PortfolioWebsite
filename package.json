@@ -16,8 +16,6 @@
     "react-scripts": "4.0.3",
     "styled": "^1.0.0",
     "styled-components": "^5.1.1",
-    "tailwind.macro": "^1.0.0-alpha.10",
-    "tailwindcss": "^1.4.6",
     "web-vitals": "^1.1.1"
   },
   "buildpacks": {},
@@ -44,10 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^9.8.0",
-    "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6"
   }
 }

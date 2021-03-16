@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import "./Contact.css";
 import {Col, Row, Container} from "../components/Grid/Grid";
 const Contact = () => {

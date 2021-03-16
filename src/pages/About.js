@@ -1,7 +1,5 @@
 import React from "react";
 import "./About.css";
-import {Col, Row, Container} from "../components/Grid/Grid"
-import {Link} from "react-router-dom";
 const About = () => {
 
     return(

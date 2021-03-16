@@ -1,8 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import {Col, Row, Container} from "../components/Grid/Grid";
 import "./Portfolio.css";
-import PortfolioTW from "./Portfolio.tw";
 import ProjectsWindow from "../components/ProjectsWindow/ProjectsWindow";
 
 
