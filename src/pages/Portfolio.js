@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Row, Container} from "../components/Grid/Grid";
 import "./Portfolio.css";
-import ProjectsWindow from "../components/ProjectsWindow/ProjectsWindow";
+
 
 
 const Portfolio = () => {
@@ -12,7 +12,7 @@ const Portfolio = () => {
             <div className="portfoliocardtop nonmobilecard">
                 <Row>
                     <Col size = "sm">
-                        <ProjectsWindow></ProjectsWindow>
+                        
                     </Col>
                 </Row>
                 {/* <Row className="topRow">
@@ -104,7 +104,7 @@ const Portfolio = () => {
             <div className="portfoliocardtop mobilecard">
             <Row>
                 <Col size = "sm">
-                        <ProjectsWindow></ProjectsWindow>
+                
                 </Col>
             </Row>
 {/*             
