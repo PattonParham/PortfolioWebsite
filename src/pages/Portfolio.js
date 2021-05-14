@@ -1,6 +1,7 @@
 import React from "react";
 import {Col, Row, Container} from "../components/Grid/Grid";
 import "./Portfolio.css";
+import ProjectsWindow from "../components/ProjectsWindow/ProjectsWindow";
 
 
 
@@ -12,7 +13,7 @@ const Portfolio = () => {
             <div className="portfoliocardtop nonmobilecard">
                 <Row>
                     <Col size = "sm">
-                        
+                        <ProjectsWindow></ProjectsWindow>
                     </Col>
                 </Row>
                 {/* <Row className="topRow">
@@ -96,7 +97,7 @@ const Portfolio = () => {
             <Row>
                     <button  className="buttonRow linkedin nonmobilecard"><a href="https://www.linkedin.com/in/patton-parham-016b851a5/" className="buttontext">LinkedIn</a></button>
                     <button  className="buttonRow github nonmobilecard" ><a href="https://github.com/PattonParham" className="buttontext">GitHub</a></button>
-                    <button  className="buttonRow resume nonmobilecard"><a href = "https://peaceful-river-21360.herokuapp.com/Resume-PattonParham.pdf" className="buttontext">Resume</a></button>
+                    <button  className="buttonRow resume nonmobilecard"><a href = "https://peaceful-river-21360.herokuapp.com/PattonJParhamResume.pdf" className="buttontext">Resume</a></button>
             </Row>
 
 
@@ -104,7 +105,7 @@ const Portfolio = () => {
             <div className="portfoliocardtop mobilecard">
             <Row>
                 <Col size = "sm">
-                
+                    <ProjectsWindow></ProjectsWindow>
                 </Col>
             </Row>
 {/*             
@@ -199,7 +200,7 @@ const Portfolio = () => {
 
             </div>
             <Row className="mobilecard">
-            <button  className="buttonRow resume mobilecard"><a href = "https://peaceful-river-21360.herokuapp.com/Resume-PattonParham.pdf" className="buttontext">Resume</a></button>
+            <button  className="buttonRow resume mobilecard"><a href = "https://peaceful-river-21360.herokuapp.com/PattonJParhamResume.pdf" className="buttontext">Resume</a></button>
             </Row>
             <Row className="mobilecard">
             <button  className="buttonRow github mobilecard"><a href="https://github.com/PattonParham" className="buttontext">GitHub</a></button>
